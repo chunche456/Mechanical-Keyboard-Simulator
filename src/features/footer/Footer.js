@@ -13,7 +13,6 @@ const Footer = ({ currentTheme, theme }) => (
       color: theme.text
     }}  
   >
-  <!--
     <a 
       href="https:github.com/tplai/kbsim" 
       target="_blank" 
@@ -43,7 +42,7 @@ const Footer = ({ currentTheme, theme }) => (
           width: "15px",
         }}
       /> Discord
-    </a> -->
+    </a>
   </div>
 )
 
