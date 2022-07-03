@@ -186,17 +186,17 @@ function TypingTest({ currentTheme, theme }) {
                   </div>
                   <div className={styles.resultcol}>
                     <div className={styles.accuracy}>
-                      {`${stats.accuracy}% accuracy`}
+                      {`${stats.accuracy}% chính xác`}
                     </div>
                   </div>
                   <div className={styles.resultcol}>
                     <div className={styles.keystrokes}>
-                      <span className={styles.correctresult}>{stats.keystrokes.correct}</span> | <span className={styles.incorrectresult}>{stats.keystrokes.incorrect}</span> keystrokes
+                      <span className={styles.correctresult}>{stats.keystrokes.correct}</span> | <span className={styles.incorrectresult}>{stats.keystrokes.incorrect}</span> tổ hợp phím
                     </div>
                   </div>
                   <div className={styles.resultcol}>
                     <div className={styles.wordresult}>
-                      <span className={styles.correctresult}>{stats.words.correct}</span> | <span className={styles.incorrectresult}>{stats.words.incorrect}</span> words
+                      <span className={styles.correctresult}>{stats.words.correct}</span> | <span className={styles.incorrectresult}>{stats.words.incorrect}</span> từ
                     </div>
                   </div>
                 </div>
